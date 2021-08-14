@@ -1,0 +1,47 @@
+
+body,main{
+    display: flex;
+}
+body{
+    flex-direction:column;
+}
+header{
+    background-color: #659dbd;
+    height: 50px;
+    
+}
+footer{
+    background-color: #659dbd;
+    height: 50px;
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+}
+article{
+    flex: 2;
+   
+}
+aside{
+    flex: 1;
+}
+
+
+a:visited{
+    color: blue;
+}
+
+article,aside{
+    overflow-y: auto;
+}
+.active_page{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+}
+.active, .active_page:hover {
+	     background-color: #a666;
+	     color: white;
+	 }
